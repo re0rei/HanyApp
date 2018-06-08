@@ -35,7 +35,7 @@ public class GifView extends AppCompatActivity {
 
         ImageView water = (ImageView) findViewById(R.id.gif_image);
         GlideDrawableImageViewTarget gifImage = new GlideDrawableImageViewTarget(water);
-        Glide.with(this).load(R.drawable.dolhar).into(gifImage);
+        Glide.with(this).load(R.drawable.seoulccul00).into(gifImage);
 
 
 

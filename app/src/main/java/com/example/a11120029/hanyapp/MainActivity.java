@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 public class MainActivity extends Activity  {
 
     Button button;
-    ImageButton imageButton;
+    ImageButton imageButton, imageButton2, imageButton3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +36,23 @@ public class MainActivity extends Activity  {
             }
         });
 
+        imageButton2 = (ImageButton)findViewById(R.id.imageButton2);
+        imageButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent3 = new Intent(MainActivity.this,GifView2.class);
+                startActivity(intent3);
+            }
+        });
+
+        imageButton3 = (ImageButton)findViewById(R.id.imageButton3);
+        imageButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent4 = new Intent(MainActivity.this,GifView3.class);
+                startActivity(intent4);
+            }
+        });
     }
 
 }

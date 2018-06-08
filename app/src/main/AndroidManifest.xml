@@ -20,6 +20,10 @@
         <activity android:name=".GifView"/>
         <activity android:name=".FragSeoul"/>
         <activity android:name=".Pager"/>
+        <activity android:name=".GifView2"/>
+        <activity android:name=".FragBusan"/>
+        <activity android:name=".GifView3"/>
+        <activity android:name=".FragJejudo"/>
     </application>
 
 </manifest>

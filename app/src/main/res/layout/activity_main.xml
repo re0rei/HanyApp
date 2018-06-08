@@ -35,11 +35,11 @@
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="35dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
             android:layout_marginBottom="17dp"
-            android:background="@drawable/searcbutton"
+            android:background="@drawable/searchbutton"
             tools:context=".MainActivity" />
     </RelativeLayout>
 
