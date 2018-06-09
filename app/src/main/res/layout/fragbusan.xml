@@ -68,7 +68,7 @@
             android:id="@+id/view" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/tour2_button"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_alignBottom="@+id/guide_button"
@@ -80,9 +80,9 @@
             android:id="@+id/button3"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_alignTop="@+id/button2"
+            android:layout_alignTop="@+id/tour2_button"
             android:layout_marginStart="16dp"
-            android:layout_toEndOf="@+id/button2"
+            android:layout_toEndOf="@+id/tour2_button"
             android:background="@drawable/icon3" />
 
         <Button

@@ -7,13 +7,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.example.a11120029.hanyapp.tour.TourMainActivity;
+
 /**
  * Created by 11120029 on 2018-05-30.
  */
 
 public class FragSeoul extends AppCompatActivity {
 
-    Button button2;
+    Button button2, button3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,5 +31,13 @@ public class FragSeoul extends AppCompatActivity {
             }
         });
 
+        button3 = (Button) findViewById(R.id.tour_button);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent5 = new Intent(FragSeoul.this,TourMainActivity.class);
+                startActivity(intent5);
+            }
+        });
     }
 }

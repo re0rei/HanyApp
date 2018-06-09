@@ -24,6 +24,34 @@
         <activity android:name=".FragBusan"/>
         <activity android:name=".GifView3"/>
         <activity android:name=".FragJejudo"/>
+
+        <activity android:name=".tour.seoultower"/>
+        <activity android:name=".tour.building"/>
+        <activity android:name=".tour.samload"/>
+        <activity android:name=".tour.luxury"/>
+        <activity android:name=".tour.aquaplanet"/>
+        <activity android:name=".tour.marinabote"/>
+        <activity android:name=".tour.museum"/>
+        <activity android:name=".tour.traditional"/>
+        <activity android:name=".tour.yungsanarthall"/>
+        <activity android:name=".tour.TourMainActivity"/>
+        <activity android:name=".tour.eight"/>
+        <activity android:name=".tour.tratest"/>
+        <activity android:name=".tour.cablecar"/>
+
+        <activity android:name=".tour2.biff"/>
+        <activity android:name=".tour2.ydtower"/>
+        <activity android:name=".tour2.book"/>
+        <activity android:name=".tour2.songdo"/>
+        <activity android:name=".tour2.seamuseum"/>
+        <activity android:name=".tour2.island"/>
+        <activity android:name=".tour2.thebay"/>
+        <activity android:name=".tour2.white"/>
+        <activity android:name=".tour2.gwanganri"/>
+        <activity android:name=".tour2.market"/>
+        <activity android:name=".tour2.park"/>
+        <activity android:name=".tour2.taejong"/>
+        <activity android:name=".tour2.TourMainActivity2"/>
     </application>
 
 </manifest>

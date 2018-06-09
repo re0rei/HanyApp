@@ -14,10 +14,4 @@
         android:layout_marginTop="0dp"
         android:background="@drawable/foong3" />
 
-    <ListView
-        android:id="@+id/listview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/iv"
-        />
 </RelativeLayout>
