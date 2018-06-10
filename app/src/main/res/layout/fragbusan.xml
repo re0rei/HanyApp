@@ -77,7 +77,7 @@
             android:background="@drawable/icon2" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/weather_button"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_alignTop="@+id/tour2_button"
@@ -86,12 +86,12 @@
             android:background="@drawable/icon3" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/food_button"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_below="@+id/view"
             android:layout_marginStart="11dp"
-            android:layout_toEndOf="@+id/button3"
+            android:layout_toEndOf="@+id/weather_button"
             android:background="@drawable/icon4" />
 
 
@@ -188,7 +188,7 @@
                     android:textColor="#49a096" />
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/textView6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"

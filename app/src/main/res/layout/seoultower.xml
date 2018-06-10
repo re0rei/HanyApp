@@ -79,6 +79,7 @@
                             android:text="남산의 풍경을 바라보면서 정상까지 가는 케이블카" />
 
                         <ImageButton
+                            android:id="@+id/Ib1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -115,6 +116,7 @@
                             android:text="남산 정상에서 볼수있는 팔각정" />
 
                         <ImageButton
+                            android:id="@+id/Ib2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -152,6 +154,7 @@
                             android:text="조선시대의 공간, 남산서울타워 한복문화체험관" />
 
                         <ImageButton
+                            android:id="@+id/Ib3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -215,6 +218,7 @@
                             android:text="한국의 전통적인 맛과 미, 고풍스러운 한식 레스토랑" />
 
                         <ImageButton
+                            android:id="@+id/Ib4"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -251,6 +255,7 @@
                             android:text="Western food의 풀서비스가 이루어지는 캐주얼 레스토랑" />
 
                         <ImageButton
+                            android:id="@+id/Ib5"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -288,6 +293,7 @@
                             android:text="대한민국 대표 프로포즈 레스토랑" />
 
                         <ImageButton
+                            android:id="@+id/Ib6"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"

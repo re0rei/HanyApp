@@ -79,6 +79,7 @@
                             android:text="부산의 최고 야경명소라 불리는 장소" />
 
                         <ImageButton
+                            android:id="@+id/Ib19"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -115,6 +116,7 @@
                             android:text="더위를 시원하게 날릴 수 있는그 곳" />
 
                         <ImageButton
+                            android:id="@+id/Ib20"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -152,6 +154,7 @@
                             android:text="산책로가 조성되어 있어 누구나 올수있는 장소" />
 
                         <ImageButton
+                            android:id="@+id/Ib21"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -197,13 +200,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/hancook" />
+                            app:srcCompat="@drawable/halmae_sub" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
-                            android:text="HANCook"
+                            android:text="할매재첩국"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -212,9 +215,10 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="15dp"
                             android:layout_marginTop="15dp"
-                            android:text="한국의 전통적인 맛과 미, 고풍스러운 한식 레스토랑" />
+                            android:text="6.25 때 부산 피난길에 재첩국을 판것으로 유명" />
 
                         <ImageButton
+                            android:id="@+id/Ib22"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -233,13 +237,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/dining" />
+                            app:srcCompat="@drawable/soojung_sub" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
-                            android:text="THE PLACE Dining"
+                            android:text="수정궁"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -248,9 +252,10 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="15dp"
                             android:layout_marginTop="15dp"
-                            android:text="Western food의 풀서비스가 이루어지는 캐주얼 레스토랑" />
+                            android:text="자연활어를 기반으로 품격있는 식음료 서비스를 지향" />
 
                         <ImageButton
+                            android:id="@+id/Ib23"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -270,13 +275,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/candle" />
+                            app:srcCompat="@drawable/sinsen_sub" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
-                            android:text="촛불1978"
+                            android:text="신센"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -285,9 +290,10 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="15dp"
                             android:layout_marginTop="15dp"
-                            android:text="대한민국 대표 프로포즈 레스토랑" />
+                            android:text="부드러운 정통 일본식 돈까스, 우동 전문점" />
 
                         <ImageButton
+                            android:id="@+id/Ib24"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"

@@ -25,7 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/gwanganri_main" />
+                android:background="@drawable/white_main" />
 
 
             <TextView
@@ -61,13 +61,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/thebay_sub" />
+                            app:srcCompat="@drawable/taejong_spot" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
-                            android:text="The Bay 101"
+                            android:text="태종대"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -76,9 +76,10 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="15dp"
                             android:layout_marginTop="15dp"
-                            android:text="부산의 최고 야경명소라 불리는 장소" />
+                            android:text="높은 바위절벽과 바다가 어루어진 아름다운 풍경" />
 
                         <ImageButton
+                            android:id="@+id/Ib25"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -97,13 +98,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/park_sub" />
+                            app:srcCompat="@drawable/seamuseum_spot" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
-                            android:text="민락 수변공원"
+                            android:text="국립 해양 박물관"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -112,9 +113,10 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="15dp"
                             android:layout_marginTop="15dp"
-                            android:text="더위를 시원하게 날릴 수 있는그 곳" />
+                            android:text="해양과 관련된 역사의 전체가 담겨있는 곳" />
 
                         <ImageButton
+                            android:id="@+id/Ib26"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -134,13 +136,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/island_sub" />
+                            app:srcCompat="@drawable/songdo_spot" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
-                            android:text="동백섬"
+                            android:text="송도 해수욕장"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -149,9 +151,10 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="15dp"
                             android:layout_marginTop="15dp"
-                            android:text="산책로가 조성되어 있어 누구나 올수있는 장소" />
+                            android:text="관광명소로도 유명한 부산 최초 해수욕장" />
 
                         <ImageButton
+                            android:id="@+id/Ib27"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -197,13 +200,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/hancook" />
+                            app:srcCompat="@drawable/jjam_sub" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
-                            android:text="HANCook"
+                            android:text="태종대 짬뽕"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -212,9 +215,10 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="15dp"
                             android:layout_marginTop="15dp"
-                            android:text="한국의 전통적인 맛과 미, 고풍스러운 한식 레스토랑" />
+                            android:text="여러종류의 해물이 올라간 태종대의 매운 짬뽕" />
 
                         <ImageButton
+                            android:id="@+id/Ib28"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -233,13 +237,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/dining" />
+                            app:srcCompat="@drawable/junju_sub" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
-                            android:text="THE PLACE Dining"
+                            android:text="전주 식당"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -248,9 +252,11 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="15dp"
                             android:layout_marginTop="15dp"
-                            android:text="Western food의 풀서비스가 이루어지는 캐주얼 레스토랑" />
+                            android:text="밑반찬 까지 맛있고 낙곱새가 유명한 해물요리전문점
+" />
 
                         <ImageButton
+                            android:id="@+id/Ib29"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -270,13 +276,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/candle" />
+                            app:srcCompat="@drawable/mok_sub" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
-                            android:text="촛불1978"
+                            android:text="목장원"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -285,9 +291,10 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="15dp"
                             android:layout_marginTop="15dp"
-                            android:text="대한민국 대표 프로포즈 레스토랑" />
+                            android:text="한국전통의 토속적인 분위기를 가진 식당" />
 
                         <ImageButton
+                            android:id="@+id/Ib30"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"

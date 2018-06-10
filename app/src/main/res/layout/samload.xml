@@ -79,6 +79,7 @@
                             android:text="우리의 전통 거주지역 서울 북촌 한옥마을" />
 
                         <ImageButton
+                            android:id="@+id/Ib13"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -115,6 +116,7 @@
                             android:text="고품질만을 판매하는 한국 관광 명품점" />
 
                         <ImageButton
+                            android:id="@+id/Ib14"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -152,6 +154,7 @@
                             android:text="기상천외한 포즈로 나만의 사진을 찍어 수 있는 박물관" />
 
                         <ImageButton
+                            android:id="@+id/Ib15"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -215,6 +218,7 @@
                             android:text="가마솥 국물 떡볶이가 유명한 가게" />
 
                         <ImageButton
+                            android:id="@+id/Ib16"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -233,13 +237,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/ssam_ssam" />
+                            app:srcCompat="@drawable/ure_sub" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
-                            android:text="인사동 쌈밥집"
+                            android:text="우래옥"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -248,9 +252,10 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="15dp"
                             android:layout_marginTop="15dp"
-                            android:text="세가지 종류의 쌈밥과 다양한 종류의 식사 메뉴를 제공" />
+                            android:text="60년 넘게 평양 냉면의 전통을 지켜온 냉면집" />
 
                         <ImageButton
+                            android:id="@+id/Ib17"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -270,7 +275,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/yangban" />
+                            app:srcCompat="@drawable/yangban_sub" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -288,6 +293,7 @@
                             android:text="한정식 전문점으로 고급스러운 맛과 멋을 제공" />
 
                         <ImageButton
+                            android:id="@+id/Ib18"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"

@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.example.a11120029.hanyapp.food2.FoodMainActivity2;
 import com.example.a11120029.hanyapp.tour.TourMainActivity;
 
 /**
@@ -15,7 +16,7 @@ import com.example.a11120029.hanyapp.tour.TourMainActivity;
 
 public class FragSeoul extends AppCompatActivity {
 
-    Button button2, button3;
+    Button button2, button3, button4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,15 @@ public class FragSeoul extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent5 = new Intent(FragSeoul.this,TourMainActivity.class);
                 startActivity(intent5);
+            }
+        });
+
+        button4 = (Button) findViewById(R.id.food_button2);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent6 = new Intent(FragSeoul.this,FoodMainActivity2.class);
+                startActivity(intent6);
             }
         });
     }

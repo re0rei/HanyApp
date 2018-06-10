@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.a11120029.hanyapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -52,6 +54,56 @@
         <activity android:name=".tour2.park"/>
         <activity android:name=".tour2.taejong"/>
         <activity android:name=".tour2.TourMainActivity2"/>
+
+        <activity android:name=".weather.WMainActivity"/>
+
+        <activity android:name=".tour3.TourMainActivity3"/>
+        <activity android:name=".tour3.joosang"/>
+        <activity android:name=".tour3.gum"/>
+        <activity android:name=".tour3.hanrim"/>
+        <activity android:name=".tour3.chun"/>
+        <activity android:name=".tour3.ggac"/>
+        <activity android:name=".tour3.sub"/>
+        <activity android:name=".tour3.udo"/>
+        <activity android:name=".tour3.hago"/>
+        <activity android:name=".tour3.guem"/>
+        <activity android:name=".tour3.hyup"/>
+        <activity android:name=".tour3.minsok"/>
+        <activity android:name=".tour3.jejumuseum"/>
+
+        <activity android:name=".food.FoodMainActivity"/>
+        <activity android:name=".food.halmae"/>
+        <activity android:name=".food.hanyang"/>
+        <activity android:name=".food.junju"/>
+        <activity android:name=".food.mokjang"/>
+        <activity android:name=".food.sahaebang"/>
+        <activity android:name=".food.sinsen"/>
+        <activity android:name=".food.soojung"/>
+        <activity android:name=".food.taejongjjam"/>
+        <activity android:name=".food.yedang"/>
+
+        <activity android:name=".food2.FoodMainActivity2"/>
+        <activity android:name=".food2.backrihyang"/>
+        <activity android:name=".food2.chotbool"/>
+        <activity android:name=".food2.dducssaroong"/>
+        <activity android:name=".food2.dining"/>
+        <activity android:name=".food2.hancook"/>
+        <activity android:name=".food2.pavilion"/>
+        <activity android:name=".food2.shuciku"/>
+        <activity android:name=".food2.ureok"/>
+        <activity android:name=".food2.yangbandack"/>
+
+        <activity android:name=".food3.FoodMainActivity3"/>
+        <activity android:name=".food3.blackfig"/>
+        <activity android:name=".food3.blackrest"/>
+        <activity android:name=".food3.boyung"/>
+        <activity android:name=".food3.buphwan"/>
+        <activity android:name=".food3.docgae"/>
+        <activity android:name=".food3.dolharbangg"/>
+        <activity android:name=".food3.gardenn"/>
+        <activity android:name=".food3.saesum"/>
+        <activity android:name=".food3.sooudong"/>
+
     </application>
 
 </manifest>

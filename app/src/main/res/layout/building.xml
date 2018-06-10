@@ -79,6 +79,7 @@
                             android:text="남산의 풍경을 바라보면서 정상까지 가는 케이블카" />
 
                         <ImageButton
+                            android:id="@+id/Ib7"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -115,6 +116,7 @@
                             android:text="남산 정상에서 볼수있는 팔각정" />
 
                         <ImageButton
+                            android:id="@+id/Ib8"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -152,6 +154,7 @@
                             android:text="조선시대의 공간, 남산서울타워 한복문화체험관" />
 
                         <ImageButton
+                            android:id="@+id/Ib9"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -215,6 +218,7 @@
                             android:text="대한민국을 대표하는 고품격 Chinese Restaurant" />
 
                         <ImageButton
+                            android:id="@+id/Ib10"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -251,6 +255,7 @@
                             android:text="장인 정신과 현대적 감각이 만난 웰빙 하이엔드 일식당" />
 
                         <ImageButton
+                            android:id="@+id/Ib11"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"
@@ -288,6 +293,7 @@
                             android:text="Restaurant In Buffet를 컨셉으로 제공하는 레스토랑" />
 
                         <ImageButton
+                            android:id="@+id/Ib12"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@android:color/background_light"

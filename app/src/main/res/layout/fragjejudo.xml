@@ -68,7 +68,7 @@
             android:id="@+id/view" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/tour_jeju"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_alignBottom="@+id/guide_button"
@@ -80,13 +80,13 @@
             android:id="@+id/button3"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_alignTop="@+id/button2"
+            android:layout_alignTop="@+id/tour_jeju"
             android:layout_marginStart="16dp"
-            android:layout_toEndOf="@+id/button2"
+            android:layout_toEndOf="@+id/tour_jeju"
             android:background="@drawable/icon3" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/food_button3"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_below="@+id/view"
@@ -188,7 +188,7 @@
                     android:textColor="#49a096" />
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/textView6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"

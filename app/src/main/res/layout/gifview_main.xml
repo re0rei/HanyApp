@@ -63,7 +63,7 @@
             app:layout_constraintTop_toBottomOf="@+id/gif_image" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/tour_jeju"
             android:layout_width="71dp"
             android:layout_height="67dp"
             android:layout_alignParentBottom="true"

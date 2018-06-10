@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="0dp"
-        android:background="@drawable/foong" />
+        android:background="@drawable/listbackground1" />
 
     <ScrollView
         android:layout_width="match_parent"

@@ -7,7 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.example.a11120029.hanyapp.food.FoodMainActivity;
 import com.example.a11120029.hanyapp.tour2.TourMainActivity2;
+import com.example.a11120029.hanyapp.weather.WMainActivity;
 
 /**
  * Created by 11120029 on 2018-05-30.
@@ -15,7 +17,7 @@ import com.example.a11120029.hanyapp.tour2.TourMainActivity2;
 
 public class FragBusan extends AppCompatActivity {
 
-    Button button2,button3;
+    Button button2, button3, button4, button5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +28,7 @@ public class FragBusan extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent3 = new Intent(FragBusan.this,Pager.class);
+                Intent intent3 = new Intent(FragBusan.this, Pager.class);
                 startActivity(intent3);
             }
         });
@@ -35,8 +37,26 @@ public class FragBusan extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent(FragBusan.this,TourMainActivity2.class);
+                Intent intent4 = new Intent(FragBusan.this, TourMainActivity2.class);
                 startActivity(intent4);
+            }
+        });
+
+        button4 = (Button) findViewById(R.id.weather_button);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent5 = new Intent(FragBusan.this, WMainActivity.class);
+                startActivity(intent5);
+            }
+        });
+
+        button5 = (Button) findViewById(R.id.food_button);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent6 = new Intent(FragBusan.this, FoodMainActivity.class);
+                startActivity(intent6);
             }
         });
     }
