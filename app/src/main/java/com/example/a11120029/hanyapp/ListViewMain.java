@@ -34,21 +34,17 @@ public class ListViewMain extends AppCompatActivity {
         editSearch = (EditText) findViewById(R.id.editSearch);
         listView = (ListView) findViewById(R.id.listView);
 
-        //리스트 생성
         list = new ArrayList<>();
 
-        // 검색에 사용할 데이터를 미리 저장
         settingList();
 
-        // 리스트의 모든 데이터를 arraylist에 복사 // list 복사본을 만든다.
         arraylist = new ArrayList<String>();
         arraylist.addAll(list);
 
-        // 리스트에 연동될 어댑터 생성
         adapter = new SearchAdapter(list, this);
 
-        //리스트뷰에 어댑터 연결
         listView.setAdapter(adapter);
+
 
         //input창에 검색어 입력시 "addTextChangedListener"이벤트 리스너 정의.
 
@@ -90,11 +86,9 @@ public class ListViewMain extends AppCompatActivity {
         else
 
             // 리스트의 모든 데이터를 검색한다.
-            for(int i = 0;i < arraylist.size(); i++)
-            {
+            for (int i = 0; i < arraylist.size(); i++) {
                 // arraylist의 모든 데이터에 입력받은 단어(charText)가 포함되어 있으면 true를 반환한다.
-                if (arraylist.get(i).toLowerCase().contains(charText))
-                {
+                if (arraylist.get(i).toLowerCase().contains(charText)) {
                     // 검색된 데이터를 리스트에 추가한다.
                     list.add(arraylist.get(i));
                 }
@@ -106,25 +100,18 @@ public class ListViewMain extends AppCompatActivity {
     }
 
     //검색에 사용할 리스트 목록 추가
-    private  void  settingList(){
-        list.add("서울");
-        list.add("광주");
-        list.add("대구");
-        list.add("대전");
-        list.add("부산");
-        list.add("울산");
-        list.add("인천");
-        list.add("제주도");
-        list.add("울릉도");
-        list.add("독도");
+    private void settingList() {
+        list.add("서울 (Seoul)");
+        list.add("광주 (Gwangju)");
+        list.add("대구 (Daegu)");
+        list.add("대전 (Daejeon)");
+        list.add("부산 (Busan)");
+        list.add("울산 (Ulsan)");
+        list.add("인천 (Incheon)");
+        list.add("제주도 (Jejudo)");
+        list.add("울릉도 (Ulleungdo)");
+        list.add("독도 (Dokdo)");
     }
 
-    public boolean onKeyUp(int keyCode, KeyEvent event) {
-        // TODO Auto-generated method stub
-        if( keyCode == KeyEvent.KEYCODE_BACK )
-        {
-            this.finish();
-        }
-        return super.onKeyDown(keyCode, event);
-    }
+
 }

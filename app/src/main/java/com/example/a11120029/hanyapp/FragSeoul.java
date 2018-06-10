@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 import com.example.a11120029.hanyapp.food2.FoodMainActivity2;
 import com.example.a11120029.hanyapp.tour.TourMainActivity;
@@ -23,7 +22,7 @@ public class FragSeoul extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragseoul);
 
-        button2 = (Button) findViewById(R.id.guide_button);
+        button2 = (Button) findViewById(R.id.guide_button1);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

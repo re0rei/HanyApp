@@ -55,7 +55,6 @@ public class TourMainActivity extends AppCompatActivity {
                     Intent intent = new Intent(TourMainActivity.this, seoultower.class);
 
                     startActivity(intent);
-
                 }
 
                 if(position == 1){
@@ -63,15 +62,12 @@ public class TourMainActivity extends AppCompatActivity {
                     Intent intent1 = new Intent(TourMainActivity.this, building.class);
 
                     startActivity(intent1);
-
                 }
-
                 if(position == 2){
 
                     Intent intent2 = new Intent(TourMainActivity.this, samload.class);
 
                     startActivity(intent2);
-
                 }
 
                 if(position == 3){
@@ -79,7 +75,6 @@ public class TourMainActivity extends AppCompatActivity {
                     Intent intent3 = new Intent(TourMainActivity.this, aquaplanet.class);
 
                     startActivity(intent3);
-
                 }
 
                 if(position == 4){
@@ -87,7 +82,6 @@ public class TourMainActivity extends AppCompatActivity {
                     Intent intent4 = new Intent(TourMainActivity.this, luxury.class);
 
                     startActivity(intent4);
-
                 }
 
                 if(position == 5){
@@ -95,7 +89,6 @@ public class TourMainActivity extends AppCompatActivity {
                     Intent intent5 = new Intent(TourMainActivity.this, marinabote.class);
 
                     startActivity(intent5);
-
                 }
 
                 if(position == 6){
@@ -103,7 +96,6 @@ public class TourMainActivity extends AppCompatActivity {
                     Intent intent6 = new Intent(TourMainActivity.this, museum.class);
 
                     startActivity(intent6);
-
                 }
 
                 if(position == 7){
@@ -111,7 +103,6 @@ public class TourMainActivity extends AppCompatActivity {
                     Intent intent7 = new Intent(TourMainActivity.this, traditional.class);
 
                     startActivity(intent7);
-
                 }
 
                 if(position == 8){
@@ -119,7 +110,6 @@ public class TourMainActivity extends AppCompatActivity {
                     Intent intent8 = new Intent(TourMainActivity.this, yungsanarthall.class);
 
                     startActivity(intent8);
-
                 }
 
                 if(position == 9){
@@ -127,7 +117,6 @@ public class TourMainActivity extends AppCompatActivity {
                     Intent intent9 = new Intent(TourMainActivity.this, cablecar.class);
 
                     startActivity(intent9);
-
                 }
 
                 if(position == 10){

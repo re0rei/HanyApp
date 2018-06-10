@@ -41,7 +41,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="부산 기초 여행 정보"
+                        android:text="놓치면 후회할 지역 대표 메뉴"
                         android:textColor="@android:color/background_dark"
                         android:textSize="20sp" />
 
@@ -57,25 +57,21 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="외국인에게 가장 사랑을 많이 받는 도시의 매력" />
+                        android:text="여행중 먹어봐야 할 대표 메뉴와 메뉴별 맛집 추천" />
 
                 </TableRow>
 
 
                 <view
                     class="android.support.v7.widget.ActionMenuView"
-
                     android:layout_width="match_parent"
                     android:layout_height="2px"
-                    android:layout_above="@+id/guide_button"
                     android:layout_alignParentStart="true"
                     android:layout_marginBottom="11dp"
-                    android:background="#49a096"
+                    android:background="@android:color/black"
 
                     app:layout_constraintVertical_bias="0.908"
-                    tools:ignore="DuplicateIds,NotSibling"
-
-                    android:id="@+id/view" />
+                    tools:ignore="DuplicateIds,NotSibling" />
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -88,7 +84,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="부산 기초 여행 정보"
+                        android:text="제대로 즐기는 맛집 사용 설명서"
                         android:textColor="@android:color/background_dark"
                         android:textSize="20sp" />
 
@@ -104,9 +100,21 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="외국인에게 가장 사랑을 많이 받는 도시의 매력" />
+                        android:text="맛집 소개와 놓치지 말아야 할 먹방 리스트" />
 
                 </TableRow>
+
+
+                <view
+                    class="android.support.v7.widget.ActionMenuView"
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="11dp"
+                    android:background="@android:color/black"
+
+                    app:layout_constraintVertical_bias="0.908"
+                    tools:ignore="DuplicateIds,NotSibling" />
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -119,7 +127,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="부산 기초 여행 정보"
+                        android:text="맛부터 비쥬얼 까지 책임지는 음식점"
                         android:textColor="@android:color/background_dark"
                         android:textSize="20sp" />
 
@@ -135,9 +143,21 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="외국인에게 가장 사랑을 많이 받는 도시의 매력" />
+                        android:text="지역별로 엄선한 요즘 핫한 가게 리스트 모음" />
 
                 </TableRow>
+
+
+                <view
+                    class="android.support.v7.widget.ActionMenuView"
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="11dp"
+                    android:background="@android:color/black"
+
+                    app:layout_constraintVertical_bias="0.908"
+                    tools:ignore="DuplicateIds,NotSibling" />
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -150,7 +170,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="부산 기초 여행 정보"
+                        android:text="가성비 갑의 저렴한 맛집"
                         android:textColor="@android:color/background_dark"
                         android:textSize="20sp" />
 
@@ -166,9 +186,21 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="외국인에게 가장 사랑을 많이 받는 도시의 매력" />
+                        android:text="해당여행지역에서 먹어봐야 할 대표 메뉴와 메뉴별 맛집 추천" />
 
                 </TableRow>
+
+
+                <view
+                    class="android.support.v7.widget.ActionMenuView"
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="11dp"
+                    android:background="@android:color/black"
+
+                    app:layout_constraintVertical_bias="0.908"
+                    tools:ignore="DuplicateIds,NotSibling" />
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -181,7 +213,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="부산 기초 여행 정보"
+                        android:text="여행 지역 먹거리 번외편"
                         android:textColor="@android:color/background_dark"
                         android:textSize="20sp" />
 
@@ -197,9 +229,11 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="외국인에게 가장 사랑을 많이 받는 도시의 매력" />
+                        android:text="여기까지 정복하면 당신은 진정한 미식가" />
 
                 </TableRow>
+
+
 
             </TableLayout>
         </LinearLayout>

@@ -41,7 +41,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="부산 기초 여행 정보"
+                        android:text="여행가기 전 체크 사항"
                         android:textColor="@android:color/background_dark"
                         android:textSize="20sp" />
 
@@ -57,25 +57,21 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="외국인에게 가장 사랑을 많이 받는 도시의 매력" />
+                        android:text="여행지역으로 떠나기 전 반드시 챙겨야 할 체크리스트" />
 
                 </TableRow>
 
 
                 <view
                     class="android.support.v7.widget.ActionMenuView"
-
                     android:layout_width="match_parent"
                     android:layout_height="2px"
-                    android:layout_above="@+id/guide_button"
                     android:layout_alignParentStart="true"
                     android:layout_marginBottom="11dp"
-                    android:background="#49a096"
+                    android:background="@android:color/black"
 
                     app:layout_constraintVertical_bias="0.908"
-                    tools:ignore="DuplicateIds,NotSibling"
-
-                    android:id="@+id/view" />
+                    tools:ignore="DuplicateIds,NotSibling" />
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -88,7 +84,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="부산 기초 여행 정보"
+                        android:text="여행지역 유용 정보"
                         android:textColor="@android:color/background_dark"
                         android:textSize="20sp" />
 
@@ -104,9 +100,21 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="외국인에게 가장 사랑을 많이 받는 도시의 매력" />
+                        android:text="해당지역 자세한 시설 안내 및 교통요지" />
 
                 </TableRow>
+
+
+                <view
+                    class="android.support.v7.widget.ActionMenuView"
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="11dp"
+                    android:background="@android:color/black"
+
+                    app:layout_constraintVertical_bias="0.908"
+                    tools:ignore="DuplicateIds,NotSibling" />
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -119,7 +127,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="부산 기초 여행 정보"
+                        android:text="스마트한 여행자를 위한 현명한 데이터 이용법"
                         android:textColor="@android:color/background_dark"
                         android:textSize="20sp" />
 
@@ -135,9 +143,21 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="외국인에게 가장 사랑을 많이 받는 도시의 매력" />
+                        android:text="여행을 떠나기전 사전정보가 담겨있는 리스트 " />
 
                 </TableRow>
+
+
+                <view
+                    class="android.support.v7.widget.ActionMenuView"
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="11dp"
+                    android:background="@android:color/black"
+
+                    app:layout_constraintVertical_bias="0.908"
+                    tools:ignore="DuplicateIds,NotSibling" />
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -150,7 +170,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="부산 기초 여행 정보"
+                        android:text="여행 전, 필수 체크사항"
                         android:textColor="@android:color/background_dark"
                         android:textSize="20sp" />
 
@@ -166,9 +186,21 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="외국인에게 가장 사랑을 많이 받는 도시의 매력" />
+                        android:text="해당지역으로 떠나기전 챙겨야할 물품 리스트" />
 
                 </TableRow>
+
+
+                <view
+                    class="android.support.v7.widget.ActionMenuView"
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="11dp"
+                    android:background="@android:color/black"
+
+                    app:layout_constraintVertical_bias="0.908"
+                    tools:ignore="DuplicateIds,NotSibling" />
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -181,7 +213,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="부산 기초 여행 정보"
+                        android:text="해당여행 지역의 날씨"
                         android:textColor="@android:color/background_dark"
                         android:textSize="20sp" />
 
@@ -197,7 +229,7 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="외국인에게 가장 사랑을 많이 받는 도시의 매력" />
+                        android:text="여행일, 날씨를 체크하여 완벽한 여행을 보내자" />
 
                 </TableRow>
 

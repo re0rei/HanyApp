@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 import com.example.a11120029.hanyapp.food.FoodMainActivity;
 import com.example.a11120029.hanyapp.tour2.TourMainActivity2;
@@ -24,7 +23,7 @@ public class FragBusan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragbusan);
 
-        button2 = (Button) findViewById(R.id.guide_button);
+        button2 = (Button) findViewById(R.id.guide_button2);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

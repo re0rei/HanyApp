@@ -52,11 +52,11 @@ public class Pager extends AppCompatActivity {
 
         //리스트에 보여줄화면과 탭에 표시될 제목을 적는다.
         //풀어서 선언하면 다음과 같다.
-        Page page = new Page(this, R.layout.tab1, "Test");
+        Page page = new Page(this, R.layout.tab1, "맛집");
         viewList.add(page);
 
-        viewList.add(new Page(this, R.layout.tab2, "Test2"));
-        viewList.add(new Page(this, R.layout.tab3, "Test3"));
+        viewList.add(new Page(this, R.layout.tab2, "관광"));
+        viewList.add(new Page(this, R.layout.tab3, "준비"));
 
         //activity_main에 선언해둔 pager를 찾아서 변수에 연결시켜준다.
         pager = (ViewPager) findViewById(R.id.pager);

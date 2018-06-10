@@ -44,8 +44,9 @@ public class PagerAdapter extends android.support.v4.view.PagerAdapter {
 
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
+
         View view = viewlist.get(position).getView();
-        //ViewPager에 만들어 낸 View 추가
+
         container.addView(view);
 
         return view;
